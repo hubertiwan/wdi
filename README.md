@@ -11,12 +11,13 @@ Lista zestawów:
 print("Hello GitHub!")
 '''
 | Nr | Lista zadań |
-| 1 | zadanie1 |
-| 2 | zadanie2 |
-| 3 | zadanie3 |
-| 4 | zadanie4 |
-| 5 | zadanie5 |
-| 6 | zadanie6 |
-| 7 | zadanie7 |
-| 8 | zadanie8 |
-| 9 | zadanie9 |
+|----|-------------|
+| 1  |  zadanie1   |
+| 2  |  zadanie2   |
+| 3  |  zadanie3   |
+| 4  |  zadanie4   |
+| 5  |  zadanie5   |
+| 6  |  zadanie6   |
+| 7  |  zadanie7   |
+| 8  |  zadanie8   |
+| 9  |  zadanie9   |

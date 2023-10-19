@@ -2,14 +2,14 @@
 > Repozytorium przechowujące zestawy zadań z WDI 2023/2024
 Jesteś obecnie na stronie: [GitHub](https://pages.github.com/)
 
-Lista zestawów:
+##Lista zestawów:
 1. [x] zestaw1
 2. [ ] zestaw2
 3. [ ] zestaw3 
 
-'''
+```
 print("Hello GitHub!")
-'''
+```
 | Nr | Lista zadań |
 |----|-------------|
 | 1  |  zadanie1   |

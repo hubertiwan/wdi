@@ -1,5 +1,5 @@
 # WDI
-> Repozytorium przechowujące zestawy zadań z WDI 2023/2024 < 
+> Repozytorium przechowujące zestawy zadań z WDI 2023/2024
 
 Jesteś obecnie na stronie: [GitHub](https://pages.github.com/)
 

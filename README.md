@@ -5,7 +5,7 @@ Jesteś obecnie na stronie: [GitHub](https://pages.github.com/)
 
 ## Lista zestawów:
 1. [x] zestaw1
-2. [ ] zestaw2
+2. [x] zestaw2
 3. [ ] zestaw3 
 
 ```

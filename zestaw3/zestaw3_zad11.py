@@ -29,7 +29,7 @@ def PrintBoard():
                 print(board[i][j], end=" ") 
         print()  
     
-def CountingPair(): # dodac warunek zeby pary liczb sie nie powtarzaly
+def CountingPair():
     product = int(input("Podaj iloczyn, ktory chcesz sprawdzic: "))
     pairsSum = 0
     length = len(board)
@@ -38,10 +38,10 @@ def CountingPair(): # dodac warunek zeby pary liczb sie nie powtarzaly
         for j in range(length):
             for x in range(length):
                 for y in range(length):
-                    if i != x and j != y:
+                    if i != x and j != y: # punkt sprawdzany [x][y] ma byc rozny od punkty do ktorego porownujemy [i][j]
                         if abs(i-x) * abs(j-y) == 2 and board[i][j] * board[x][y] == product: # abs(i-x) * abs(j-y) == 2 --> skoczek, dwa do przodu, jeden w bok
                             pairsSum += 1
-    pairsSum = pairsSum // 2 # liczba policzonych par jest podwojna            
+    pairsSum = pairsSum // 2 # liczba policzonych par jest podwojna, wiec dzielimy na 2         
     print(f"Liczba par elementow o iloczynie {product}, odleglych od siebie o jeden ruch skoczka szachowego wynosi: {pairsSum}")
         
 SetBoardSize()

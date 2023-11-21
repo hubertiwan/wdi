@@ -18,7 +18,7 @@ def GeneratingNumbers():
     global board
     for i in range(len(board)):
         for j in range(len(board)):
-            board[i][j] = random.randint(0, 5)            
+            board[i][j] = random.randint(0, 5) # można zmienić zakres losowanych liczb           
 
 def PrintBoard():    
     for i in range(len(board)):  

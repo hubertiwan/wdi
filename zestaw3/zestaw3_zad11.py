@@ -47,36 +47,5 @@ def CountingPair():
 SetBoardSize()
 GeneratingNumbers()
 PrintBoard()
-CountingPair()
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-for i in range(len(board)):
-        for j in range(len(board[i])):
-            if board[i][j] * board[i+2][j-1] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i+2][j+1] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i-1][j+2] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i+1][j+2] == product:
-                pairsSum += 1 
-            elif board[i][j] * board[i-2][j-1] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i-2][j+1] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i-1][j-2] == product:
-                pairsSum += 1
-            elif board[i][j] * board[i+1][j-2] == product:
-                pairsSum += 1 
-'''
+CountingPair()
+          

@@ -6,19 +6,16 @@ Jesteś obecnie na stronie: [GitHub](https://pages.github.com/)
 ## Lista zestawów:
 1. [x] zestaw1
 2. [x] zestaw2
-3. [ ] zestaw3 
+3. [x] zestaw3
+4. [x] zestaw4 
 
 ```
 print("Hello GitHub!")
 ```
-| Nr | Lista zadań |
-|----|-------------|
-| 1  |  zadanie1   |
-| 2  |  zadanie2   |
-| 3  |  zadanie3   |
-| 4  |  zadanie4   |
-| 5  |  zadanie5   |
-| 6  |  zadanie6   |
-| 7  |  zadanie7   |
-| 8  |  zadanie8   |
-| 9  |  zadanie9   |
+| Nr | Lista zadań | Numer zestawu|
+|----|-------------|--------------|
+| 1  |  zadanie 9  |   zestaw 1   |
+| 2  |zadanie 1 i 7|   zestaw 2   |
+| 3  |  zadanie 11 |   zestaw 3   |
+| 4  |  zadanie 7  |   zestaw 4   |
+

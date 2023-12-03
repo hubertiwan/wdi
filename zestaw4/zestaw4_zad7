@@ -1,0 +1,61 @@
+# uzytkownik wskazuje w jakim pliku chce dokonac zmian
+# wszystkie slowa zaczynajace sie na samogloske -> wypisuje od konca
+# wielka litera -> mala litera
+# so konczy sie i zaczyna na samogloske -> zamiana klejnosci i zamiana na wielkie
+
+import os
+global fileName
+
+def chooseFile(): # wypisywanie listy z plikami txt i wybor jednego do odczytu i edycji
+    global fileName
+    for i in os.listdir():
+        if i.endswith(".txt"):
+            print(i)   
+    fileName = input("Wybierz jeden z powyzszych plik: ")     
+    if os.path.exists(fileName):
+        print(f"Plik {fileName} istnieje i jest gotowy do pracy")
+    else:
+        print("Plik pod wskazana sciezka nie istnieje")
+
+def isVowelF(firstLetter):
+    vowels = ['o','a','e','i','y','u']
+    vowelsUpper = ['O','A','E','I','Y','U']
+    
+    if firstLetter in vowels:    
+        return "vowel"
+    elif firstLetter in vowelsUpper:
+        return "vowel"
+    return "notvowel"
+
+def modifyFile(choosenFile):
+    with open(choosenFile, "r+") as file:
+        lines = file.readlines()
+        file.seek(0)
+        
+        for line in lines: 
+            modifiedWords = []
+            for word in line.split():
+                resultBeg = isVowelF(word[0])
+                resultEnd = isVowelF(word[-1])
+                word = word.lower()
+                if len(word) == 1:
+                    word = word
+                elif resultBeg == "vowel" and resultEnd == "vowel":
+                    word = word[0].upper() + word[1:-1] + word[-1].upper()
+                    word = word[-1] + word[1:-1] + word[0]
+                elif resultBeg == "vowel":
+                    word = word[::-1]           
+                modifiedWords.append(word)
+                #print(word)
+            
+            modifiedLine = ' '.join(modifiedWords) + "\n"
+            file.write(modifiedLine) 
+          
+        
+chooseFile()
+modifyFile(fileName)   
+    
+
+
+
+

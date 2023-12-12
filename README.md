@@ -8,7 +8,7 @@ Jesteś obecnie na stronie: [GitHub](https://pages.github.com/)
 2. [x] [zestaw2](https://github.com/hubertiwan/wdi/tree/cdaa3ce648201167e4bb322fb0fb8ff61bc340c4/zestaw2)
 3. [x] [zestaw3](https://github.com/hubertiwan/wdi/tree/cdaa3ce648201167e4bb322fb0fb8ff61bc340c4/zestaw3)
 4. [x] [zestaw4](https://github.com/hubertiwan/wdi/tree/cdaa3ce648201167e4bb322fb0fb8ff61bc340c4/zestaw4)
-5. [x] [zestaw5](https://github.com/hubertiwan/wdi/tree/cdaa3ce648201167e4bb322fb0fb8ff61bc340c4/zestaw5) 
+5. [x] [zestaw5](https://github.com/hubertiwan/wdi/tree/db141ffcd4b619b1d5b06ec6e03c71ec585664ff/zestaw5) 
 
 ```
 print("Hello GitHub!")
